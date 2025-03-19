@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InovaAgro</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icone.png" type="image/x-icon">
-
+</head>
 <body>
     <header>
         <div class="logo">
@@ -31,53 +30,41 @@
 
     <section id="produtos">
         <h1>Nossos Produtos</h1>
-        <div class="product">
-            <a href="pdf/Catalogo Biologicos RF.pdf" target="_blank" class="btn">Catalogo de Biologico</a>
-        </div>
-
-        <div class="product">
-            <a href="pdf/Catalogo linha Agricola RF.pdf" target="_blank" class="btn">Catalogo Linha Agricola</a>
-
-        </div>
-
-        <div class="product">
-            <a href="pdf/Catalogo linha Pecuaria RF.pdf" target="_blank" class="btn">Catalogo Linha Pecuaria</a>
-
-        </div>
-
-        <div class="product">
-            <a href="pdf/IOP_68 Folder Digital IOP (1).pdf" target="_blank" class="btn">IOP full</a>
-
+        <div class="product-container">
+            <div class="product">
+                <a href="pdf/Catalogo Biologicos RF.pdf" target="_blank" class="btn">Catálogo de Biológico</a>
+            </div>
+            <div class="product">
+                <a href="pdf/Catalogo linha Agricola RF.pdf" target="_blank" class="btn">Catálogo Linha Agrícola</a>
+            </div>
+            <div class="product">
+                <a href="pdf/Catalogo linha Pecuaria RF.pdf" target="_blank" class="btn">Catálogo Linha Pecuária</a>
+            </div>
+            <div class="product">
+                <a href="pdf/IOP_68 Folder Digital IOP (1).pdf" target="_blank" class="btn">IOP Full</a>
+            </div>
         </div>
 
         <h2>SEMENTES</h2>
-
-        <div class="product">
-            <a href="pdf/sorgo.pdf" target="_blank" class="btn">SORGO</a>
-
+        <div class="product-container">
+            <div class="product">
+                <a href="pdf/sorgo.pdf" target="_blank" class="btn">SORGO</a>
+            </div>
+            <div class="product">
+                <a href="pdf/milho.pdf" target="_blank" class="btn">MILHO</a>
+            </div>
         </div>
-
-        <div class="product">
-            <a href="pdf/milho.pdf" target="_blank" class="btn">MILHO</a>
-
-        </div>
-
     </section>
-
-    <!-- <section id="sustentabilidade">
-        <h2>Compromisso com a Sustentabilidade</h2>
-        <p>Nosso objetivo é contribuir para o crescimento sustentável do setor agrícola.</p>
-    </section> -->
 
     <section id="contato">
         <h2>Fale Conosco</h2>
+        <br>
         <p>Preencha os campos abaixo e envie sua mensagem diretamente pelo WhatsApp.</p>
-
+        <br>
         <form id="contato-form">
             <input type="text" id="nome" placeholder="Seu Nome" required>
             <input type="text" id="telefone" placeholder="Seu WhatsApp (DDD + Número)" required>
             <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
-
             <button type="submit">Enviar</button>
         </form>
     </section>
@@ -88,5 +75,4 @@
 
     <script src="js/js.js" type="text/javascript"></script>
 </body>
-
 </html>
