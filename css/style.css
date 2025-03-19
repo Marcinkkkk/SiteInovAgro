@@ -43,6 +43,7 @@ section {
 
 h2, h1 {
     color: #3d5f23;
+    text-align: center;
 }
 
 .product {
@@ -84,37 +85,6 @@ footer {
     background-color: #3d5f23;
     color: #f5f5f2;
 }
-
-.btnsorgo {
-    display: block;
-    width: 1000px;
-    margin: 15px auto;
-    padding: 10px 25px;
-    color: #1d1d1b;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 30px;
-    border: 2px solid #2c4a1a;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    display: flex;
-    gap: 8px;
-    min-width: 180px;
-}
-
-.btnsorgo:hover {
-    background: #fcc137;
-    border-color: #2c4a1a;
-    box-shadow: 5px 7px 18px rgba(0, 0, 0, 0.22);
-    transform: scale(1.05);
-}
-
 #contato {
     text-align: center;
     padding: 40px 20px;
@@ -154,8 +124,4 @@ footer {
 #contato button:hover {
     background-color: #82bd4a;
     color: #1d1d1b;
-}
-
-#titulo{
-    text-align: center;
 }
